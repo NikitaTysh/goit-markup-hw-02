@@ -52,7 +52,7 @@ list-style: none;
       color: var(--blue-color);
     }
 .contact-link{
-    color: var(--primery-color)
+    color: var(--primery-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
