@@ -14,7 +14,7 @@
 }
 body{
     color: var(--primery-color);
-    font-family: roboto;
+    font-family: 'Roboto';
     font-style: 400;
     
 } 
@@ -160,8 +160,7 @@ font-weight: 400;
 font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
-
-    color: rgba(255, 255, 255, 0.6);
+ color: rgba(255, 255, 255, 0.6);
 }
 
 /* -----portfolio page ------*/
