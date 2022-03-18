@@ -1,0 +1,62 @@
+
+/* основой текст #757575; */
+/* вторичный , заголовки #212121; */
+/* цвет  белый  #FFFFFF */
+/* голубой цвет #2196F3 */
+/* background hero #2F303A */
+:root{
+    --primery-color:#757575;
+    --secondary-text:#212121;
+    --blue-color:#2196F3
+}
+body{
+    color: var(--primery-color);
+} 
+/* header   */
+.header-logo{
+    color: var(--secondary-text);
+}
+.logo-header-studio{
+    color: var(--blue-color);
+}
+/* nav list */
+.list{
+list-style: none;
+}
+.link{ text-decoration: none;
+    
+}
+.nav-link{
+    color: var(--secondary-text) ;
+}
+.nav-link:focus, 
+.nav-link:hover{
+color: var(--blue-color);
+}
+/* main */
+.hero{
+    background-color: #2F303A;
+}
+.hero-title{
+    color:#ffffff;
+}
+/* наши преимущества */
+.section-title{
+    color: var(--secondary-text);
+}
+/* footer */
+.footer{
+    background-color: #2F303A;;
+}
+.footer-logo{
+    color: #ffffff;
+}
+.footer-logo-web{
+    color: var(--blue-color);
+}
+.footer-map{
+    color: #fff;;
+}
+.footer-contact{
+    color: rgba(255, 255, 255, 0.6);
+}
