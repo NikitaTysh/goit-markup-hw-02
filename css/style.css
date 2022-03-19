@@ -11,15 +11,30 @@
     --white-color:#ffffff; 
     --background:#2F303A ;
 
-}
+}h1, h2, h3,
+ul{margin: 0 0;}
 body{
+    
     color: var(--primery-color);
     font-family: 'Roboto';
-    font-style: 400;
+    font-style: normal;
     
 } 
 /* header   */
+.page-header
+{
+     /* background-color: #969cda; */
+}
+.header-container
+{ outline: 3px solid black;
+  width: 1600px;
+
+    
+    }
+
+
 .header-logo{
+    
     color: var(--blue-color);
     font-family: raleway, sans-serif;
     font-weight: 700;
@@ -30,11 +45,12 @@ body{
 }
 .logo-header-studio{
     color: var(--secondary-text);
-    
 }
 /* nav list */
 .list{
-list-style: none;
+    display: flex;
+    list-style: none;
+    
 }
 .link{ text-decoration: none;
     
@@ -64,27 +80,42 @@ list-style: none;
 }
 /* main */
 .hero{
+    display: inline-block;
+    text-align: center;
+    padding-bottom : 200px;
+    width: 1600px;
     background-color:var(--background);
 }
 .hero-title{
+    padding:200px 0 30px 0;
+    text-align: center;
     color:var(--white-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
-    text-align: center;
-    text-align: center;
     text-transform: uppercase;
 }
 .hero-button{
+    display: inline-block;
+    min-width:200px;
+    padding: 10px 32px;
+    height: 50px;
+    background-color: var(--blue-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    align-items: center;
     letter-spacing: 0.06em;
     color:var(--white-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    text-align: center;
 }
 /* наши преимущества */
+.hidden-title{
+    display: none;
+    
+}
 .section-title{
 color: var(--secondary-text);
 font-weight: 700;
@@ -92,6 +123,12 @@ font-size: 36px;
 line-height: 1.16;
 letter-spacing: 0.03em;
 }
+.advantages-container{}
+/* 
+.advantages-item{
+outline: 3px solid black;
+} */
+
 .advantages-title{
 font-weight: 700;
 font-size: 14px;
@@ -100,7 +137,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--secondary-text);
 }
-.advantages{
+.advantages-p{
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
