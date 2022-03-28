@@ -55,7 +55,8 @@ img{display: block;}
 body{
     color: var(--primery-color);
     font-family: 'Roboto';
-    font-style: normal; 
+    letter-spacing: 0.03em;
+    font-size: 14px;
 } 
 
 /*------- header --------  */
@@ -72,7 +73,7 @@ body{
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
+
     
 }
 .logo-header-studio{
@@ -96,7 +97,6 @@ body{
 .nav-link{
     color: var(--secondary-text);
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     cursor: pointer;
@@ -116,7 +116,6 @@ body{
 .contact-link{
     color: var(--primery-color);
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     padding: 30px 0;
@@ -177,7 +176,6 @@ body{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
-    letter-spacing: 0.03em;
     margin-bottom: 50px;
     /* text-align: center; */
 
@@ -190,7 +188,6 @@ body{
 .advantages-title{
 
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -201,7 +198,6 @@ body{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
     color:var(--primery-color);
 }
 /* -----------our works-------- */
@@ -233,7 +229,6 @@ body{
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    letter-spacing: 0.03em;
     color: var(--primery-color);
 }
     
@@ -261,8 +256,6 @@ body{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
-    /* text-align: center; */
-    letter-spacing: 0.03em;
     color: var(--secondary-text);
 }
 .team-p{
@@ -270,9 +263,7 @@ body{
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    letter-spacing: 0.03em;
     color: var(--primery-color);
-    /* text-align: center; */
 }
 /* --------footer------------- */
 .footer{
@@ -292,7 +283,6 @@ body{
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    letter-spacing: 0.03em;
     margin-bottom: 20px;
     display: block;
 }
@@ -307,9 +297,7 @@ margin-bottom: 9px;
     color:var(--white-color);
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 .footer-map:hover,
@@ -323,9 +311,7 @@ color: var(--white-color);}
 display: block;
 font-style: normal;
 font-weight: 400;
-font-size: 14px;
 line-height: 1.71;
-letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
 .current{
@@ -353,9 +339,9 @@ color: var(--white-color);
     font-weight: 500;
     font-size: 16px;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 .button-item:not(:last-child)
 {
     margin-right: 8px;;
 }
+.ourworks-
