@@ -17,7 +17,7 @@
     --background:#2F303A ;
     --bg:#F5F4FA;
     --icon-fill:#AFB1B8;
-    --work-item-border:#eeeeee
+    --work-item-border:#eeeeee;
 }
 h1, h2, h3, ul, p{
      margin: 0;
@@ -59,6 +59,7 @@ body{
     font-family: 'Roboto';
     letter-spacing: 0.03em;
     font-size: 14px;
+    background-color: var(--white-color);
 } 
 
 /*------- header --------  */
@@ -138,7 +139,7 @@ body{
     margin-left: auto;
  
 }
-.hero-title{
+.hero-title{    
     padding:200px 0 30px 0;
     text-align: center;
     color:var(--white-color);
@@ -198,8 +199,7 @@ body{
     margin-bottom: 10px;
 }
 .advantages-p{
-    font-weight: 400;
-    font-size: 14px;
+    
     line-height: calc(24 / 14);
     color:var(--primery-color);
 }
@@ -229,7 +229,7 @@ body{
     color: var(--secondary-text);
 }
 .works-p{
-    font-weight: 400;
+    
     font-size: 16px;
     line-height: calc(19 / 16);
     color: var(--primery-color);
@@ -296,7 +296,7 @@ margin-bottom: 9px;
 }
 .footer-map{
     color:var(--white-color);
-    font-weight: 400;
+    
     line-height: calc(24 / 14);
     color: rgba(255, 255, 255, 0.6);
 }
@@ -309,7 +309,7 @@ color: var(--white-color);}
   
 .footer-contact{
 display: block;
-font-weight: 400;
+
 line-height: calc(24 / 14);
 color: rgba(255, 255, 255, 0.6);
 }
